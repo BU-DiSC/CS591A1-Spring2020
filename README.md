@@ -1,2 +1,2 @@
 # CS591A1
-CS591A1 MiDAS
+https://midaslab-bu.github.io/CS591A1/
