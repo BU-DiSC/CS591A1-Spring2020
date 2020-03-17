@@ -156,7 +156,7 @@ background: #E0E0E0;
   font-size:18px;
 }
 
-.mylist a
+.mylist,.mylist2 a
 {
   text-decoration: underline;
 }
