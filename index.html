@@ -695,6 +695,7 @@
                      </ul>                        
                      </p>
 
+
                      <h2 class="text-center">F. Distributed Data Management</h2>
 
                      <h3 class="post-subtitle">
@@ -711,7 +712,30 @@
                      </ul>                        
                      </p>
          
- 
+
+                     
+                     <div class="alert alert-danger" role="alert">
+                        <h3 class="post-subtitle" id="research-talk-3" style="margin:0px">
+                            <!-- Class <script type="text/javascript">document.write(cday+1)</script>: Guest Lecture on TBA -->
+                            <em>Guest Lecture 3: Learning Multi-dimensional Indexes </em>
+                      </h3>
+                      <p style="border:0px; margin:0px;">&nbsp;&nbsp;&nbsp;from <a href="https://jialinding.github.io/" target="_blank">Jialin Ding</a>, MIT</p>
+                      <p style="border:0px; margin:0px;">Part of <strong> Machine Learning for Data Systems</strong></p>
+                         <p class="post-meta">Friday, April 10th</p>
+                         <p class="post-content"><strong>Abstract:</strong> Scanning and filtering over multi-dimensional tables are key operations in modern analytical database engines. To optimize the performance of these operations, databases often create clustered indexes over a single dimension or multi-dimensional indexes such as R-Trees, or use complex sort orders (e.g., Z-ordering). However, these schemes are often hard to tune and their performance is inconsistent across different datasets and queries.
+                         In this talk, I will present Flood, a multi-dimensional in-memory read-optimized index that automatically adapts itself to a particular dataset and workload by jointly optimizing the index structure and data storage layout. Flood achieves up to three orders of magnitude faster performance for range scans with predicates than state-of-the-art multi-dimensional indexes or sort orders on real-world datasets and workloads. Our work serves as a building block towards an end-to-end learned database system. Our paper on Flood will appear at SIGMOD 2020.
+                        I will also talk about our continuing work on extending the ideas of Flood to address real-world challenges of indexing multi-dimensional data such as data correlation, non-uniform queries, and categorical attributes.</p>
+                         <p class="post-content"><strong>Bio:</strong> Jialin Ding is a second-year PhD student in the MIT Data Systems Group, where he is advised by Prof. Tim Kraska. His research focuses broadly on the application of machine learning to data systems. He also collaborates with Umar Farooq Minhas and the Database Group at Microsoft Research on learned data structures. Prior to MIT, Jialin was an undergraduate at Stanford University, where he worked on data-intensive systems with Prof. Peter Bailis at part of Stanford DAWN.
+                         </p>
+                         <p>
+                         <!-- <h4 style="color:black">Readings</h4>  -->
+                         <ul class="mylist">
+                             <!-- <li><a style="font-size:18px; text-decoration: underline;" tabindex="-1" href="./slides/ResearchTalk1-Dayan.pdf">Presentation Slides</a></li> -->
+                             <!-- <li style="color:black"><a href="http://www.vldb.org/pvldb/vol10/p349-papadopoulos.pdf">The TileDB Array Data Storage Manager</a>, VLDB 2017 </li> -->
+                         </ul> 
+                     </p>
+                    </div>
+
                      <h3 class="post-subtitle">
                         Class <script type="text/javascript">document.write(cday+1)</script>: Map/Reduce: Data Management at Scale
                      </h3>
